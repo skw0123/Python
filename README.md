@@ -1,6 +1,6 @@
 # Python
 
-### Python Syntax
+## Python Syntax
 ##### 공백 없으면 오류 발생 
 ##### 일반적으로 4개 공백 사용됨 
 ##### 적어도 하나 필수
@@ -18,11 +18,11 @@ y = "Hello, World!"
 #This is a comment.
 ```
 ---
-### Python Comments
+## Python Comments
 ##### Python은 주석 뒤 무시
 ```
 #This is a comment
 print("Hello, World!")
 ```
 ---
-### Python Variables
+## Python Variables
