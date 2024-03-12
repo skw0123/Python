@@ -13,8 +13,16 @@ if 5 > 2:
 x = 5
 y = "Hello, World!"
 ```
-##### # = 주석
+##### #은 주석
 ```
 #This is a comment.
 ```
-
+---
+### Python Comments
+##### Python은 주석 뒤 무시
+```
+#This is a comment
+print("Hello, World!")
+```
+---
+### Python Variables
