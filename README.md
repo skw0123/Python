@@ -245,11 +245,117 @@ Less than or equal to: a <= b
 Greater than: a > b
 Greater than or equal to: a >= b
 ```
+---
+## Python While Loops
+##### 두 가지 기본 루프 명령
+```
+while 루프
+for 루프
+```
+##### while 루프
+##### break 문
+##### 계속 진술
+##### else 문
+```
+i = 1
+while i < 6:
+  print(i)
+  i += 1
 
+i = 1
+while i < 6:
+  print(i)
+  if i == 3:
+    break
+  i += 1
 
+i = 0
+while i < 6:
+  i += 1
+  if i == 3:
+    continue
+  print(i)
 
+i = 1
+while i < 6:
+  print(i)
+  i += 1
+else:
+  print("i is no longer less than 6")
+```
+---
+## Python For Loops
+##### for 루프 -> 시퀀스(목록, 튜플, 사전, 집합 또는 문자열) 반복
+```
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+```
+##### 문자열을 통한 반복
+```
+for x in "banana":
+  print(x)
+```
+##### break 문
+```
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+  if x == "banana":
+    break
 
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x == "banana":
+    break
+  print(x)
+```
+##### 계속 진술
+```
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x == "banana":
+    continue
+  print(x)
+```
+##### range() 함수
+```
+for x in range(6):
+  print(x)
 
+for x in range(2, 6):
+  print(x)
+
+for x in range(2, 30, 3):
+  print(x)
+```
+##### For 루프의 Else
+```
+for x in range(6):
+  print(x)
+else:
+  print("Finally finished!")
+
+for x in range(6):
+  if x == 3: break
+  print(x)
+else:
+  print("Finally finished!")
+```
+##### 중첩 루프
+```
+adj = ["red", "big", "tasty"]
+fruits = ["apple", "banana", "cherry"]
+
+for x in adj:
+  for y in fruits:
+    print(x, y)
+```
+##### 패스 설명
+```
+for x in [0, 1, 2]:
+  pass
+```
 
 
 
